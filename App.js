@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
-import { StyleSheet } from 'react-native';
+import React, { Component } from "react";
+import { StyleSheet } from "react-native";
 import {
-	Container,
-	Header, Content, Footer,
+	Container, Header, Content, Footer,
 	Title, Left, Right, Body,
 	Button, Icon, Text, Form, Input, Item, Label, Card, CardItem, Thumbnail,
-} from 'native-base';
+} from "native-base";
 
 const _HEADER_ = "ヘッダー";
 const _FOOTER_ = "フッター";
@@ -76,7 +75,7 @@ const styles = StyleSheet.create({
 	},
 	fotter: {
 		alignItems: "center",
-		justifyContent: "center"
+		justifyContent: "center",
 	},
 	content: {
 		padding: 10,
